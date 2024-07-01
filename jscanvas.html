@@ -1,0 +1,112 @@
+<canvas id="canvas1" style="border:1px solid black"></canvas>
+
+<script>
+
+    var canvas1 = document.getElementById("canvas1");
+
+    var context = canvas1.getContext('2d');
+
+ 
+
+    context.font = "30px arial";
+
+    context.fillText("Hello world", 100, 100);
+
+</script>
+
+............................................................................
+
+
+<canvas id="canvas1" style="border:1px solid black"></canvas>
+
+<script>
+
+    var canvas1 = document.getElementById("canvas1");
+
+    var context = canvas1.getContext('2d');
+
+ 
+
+    context.moveTo(0, 0);
+
+    context.lineTo(200, 200);
+
+    context.stroke();
+
+</script>
+
+
+.......................................................................
+
+
+<canvas id="canvas1"></canvas>
+
+<script>
+
+    var canvas1 = document.getElementById("canvas1");
+
+    var context = canvas1.getContext('2d');
+
+    context.fillStyle = "RED";
+
+    context.fillRect(10, 10, 100, 100);
+
+ 
+
+    context.fillStyle = "GREEN";
+
+    context.fillRect(20, 20, 100, 100);
+
+ 
+
+    context.fillStyle = "BLUE";
+
+    context.fillRect(30, 30, 100, 100);
+
+</script>
+
+
+................................................................................
+
+
+<html>
+
+<head>
+
+ 
+
+    <script>
+
+        function f1() {
+
+            var canvas1 = document.getElementById("canvas1");
+
+            var context = canvas1.getContext('2d');
+
+            //context.fillStyle = "#FF0000";
+
+            context.fillStyle = 'RED';
+
+            context.fillRect(25, 10, 150, 80);
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <h1>HTML5, canvas</h1>
+
+ 
+
+    <button onclick="f1()">Click Me</button>
+
+    <canvas id="canvas1" style="border:2px solid green"></canvas>
+
+ 
+
+</body>
+
+</html>
